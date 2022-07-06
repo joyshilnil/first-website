@@ -14,6 +14,10 @@ h5,
 h6 {
     font-family: 'Poppins', sans-serif;
 }
+
+/* Home Section Css */
+
+
 section.home {
     background-image: url(images/donation13.jpg);
     width: 100%;
@@ -27,7 +31,7 @@ section.home {
 
 h1.home-heading {
     color: #fff;
-    font-size: 60px;
+    font-size: 55px;
     margin: 0;
 }
 
@@ -46,8 +50,6 @@ button.main-btn {
     border-radius: 10px;
 }
 
-
-
 .donate-container {
     text-align: center;
     width: 80%;
@@ -63,6 +65,7 @@ h1.section-heading {
 .section-title p {
     font-size: 18px;
     color: gray;
+    line-height: 1.5;
 }
 
 .donate-box {
@@ -101,6 +104,9 @@ h1.section-heading {
     margin-bottom: 35px;
 }
 
+/* Donate Plan Section Css */
+
+
 section#donate-plan {
     text-align: center;
     padding: 80px 0;
@@ -124,7 +130,10 @@ section#donate-plan {
     border-radius: 5px;
     margin-right: 25px;
 }
-
+.single-plan-box p {
+    color: gray;
+    line-height: 1.5;
+}
 .single-plan-box.style-1 {
     background: #EDF5F6;
 }
@@ -136,6 +145,51 @@ section#donate-plan {
 .single-plan-box.style-3 {
     background: #FFF4D6;
 }
+
+
+
+/* Blog Section Css */
+
+
+section#blog {
+    padding: 80px 0;
+}
+
+.blog-container {
+    text-align: center;
+}
+
+.all-blog {
+    width: 80%;
+    padding: 0 10%;
+    display: flex;
+    margin-top: 40px;
+}
+
+.single-blog {
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+    padding: 20px 15px;
+    margin-right: 20px;
+    text-align: left;
+    border-radius: 6px;
+}
+
+h1.blog-title a {
+    color: red;
+    text-decoration: none;
+}
+
+.single-blog img {
+    width: 100%;
+}
+
+.single-blog p {
+    color: gray;
+    line-height: 1.5;
+}
+
+
+/* Subscribe Section Css */
 
 section#subscribe {
     padding: 80px 0;
@@ -172,6 +226,8 @@ input.submir-btn {
     border-radius: 0 5px 5px 0;
     margin-left: -10px;
 }
+
+/* Footer  Css */
 
 footer {
     text-align: center;
